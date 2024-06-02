@@ -13,6 +13,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 		
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://the-internet.herokuapp.com/add_remove_elements/");
+		driver.findElement(By.cssSelector("button[onclick='addElement()']")).click();
+		
+		
 		
 		
 		
